@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Time Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Input Area -->
+        <div id="input-container">
+            <input type="text" id="time-input" placeholder="Time (e.g. 30m, 1h)" autofocus>
+        </div>
+
+        <!-- Progress Bar (Initially Hidden) -->
+        <div id="progress-bar" style="display: none;">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
